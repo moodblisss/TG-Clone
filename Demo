@@ -4,7 +4,7 @@ package Model;
 public class Profile {
     private int id;
     private String ownerName;
-    private String realName;
+    private String Name;
     private String gender;
     private String gender_looking;
     private int age;
@@ -19,9 +19,9 @@ public class Profile {
 
     public Profile(){}
 
-    public Profile(String ownerId, String realName, String gender, String gender_looking, int age, String city, String description, String seenBy, String likedBy, byte[] image, String telegram, String instagram) {
+    public Profile(String ownerId, String Name, String gender, String gender_looking, int age, String city, String description, String seenBy, String likedBy, byte[] image, String telegram, String instagram) {
         this.ownerName = ownerId;
-        this.realName = realName;
+        this.realName = Name;
         this.gender = gender;
         this.gender_looking = gender_looking;
         this.age = age;
@@ -34,10 +34,10 @@ public class Profile {
         this.telegram = telegram;
     }
 
-    public Profile(int id, String ownerId, String realName, String gender, String gender_looking, int age, String city, String description, String seenBy, String likedBy, byte[] image, String telegram, String instagram) {
+    public Profile(int id, String ownerId, String Name, String gender, String gender_looking, int age, String city, String description, String seenBy, String likedBy, byte[] image, String telegram, String instagram) {
         this.id = id;
         this.ownerName = ownerId;
-        this.realName = realName;
+        this.realName = Name;
         this.gender = gender;
         this.gender_looking = gender_looking;
         this.age = age;
@@ -79,7 +79,7 @@ public class Profile {
     }
 
     public String getRealName() {
-        return realName;
+        return Name;
     }
 
     public int getAge() {
@@ -131,7 +131,7 @@ public class Profile {
     }
 
     public void setRealName(String name) {
-        this.realName = name;
+        this.Name = name;
     }
 
     public void setAge(int age) {
