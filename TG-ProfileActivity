@@ -528,7 +528,6 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
     private final static int invite_to_group = 9;
     private final static int share = 10;
     private final static int edit_channel = 12;
-    private final static int add_shortcut = 14;
     private final static int call_item = 15;
     private final static int video_call_item = 16;
     private final static int search_members = 17;
