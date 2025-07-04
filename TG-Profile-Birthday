@@ -44,7 +44,7 @@ public class ProfileBirthdayEffect extends View {
     public static String numbersEmojipack = "FestiveFontEmoji";
     public static String interactionsPack = "EmojiAnimations";
     public static String[] interactions = new String[] {
-        "🎉", "🎆", "🎈"
+        "🎊", "🎈", "🥳"
     };
 
 
