@@ -1,4 +1,3 @@
-````markdown Telegram Android=README.md
 # Telegram Android
 
 An unofficial (or official, if that’s your case) Android client for Telegram. This app lets you chat, share media, join groups, and experience the power of Telegram’s secure messaging on your Android device.
